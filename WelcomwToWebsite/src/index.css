@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body
+{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(135deg, #6352EC, #6352EC, #B968C7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#root
+{
+  height: 70vh;
+  width: 70%;
+}
+
+.containerDiv
+{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+
+}
+
+.contentContainer
+{
+  height: 100%;
+  width: 60%;
+  background-image: linear-gradient(135deg, #7B6CEB, #7B6CEB, #f6966e);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcomwHeading
+{
+  font-size: 45px;
+}
+.welcomwDetails
+{
+  margin-left: 80px;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-right: 50px;
+  margin-bottom: 180px;
+}
+
+.formContainer
+{
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  color: #6352EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.userLogin
+{
+  margin-bottom: 30px;
+}
+.user
+{
+  height: 30px;
+  width: 60%;
+  border-radius: 999px;
+  margin-bottom: 5px;
+}
+
+.checkAndForgetContainer
+{
+  height: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.LoginButton
+{
+  height: 30px;
+  width: 100px;
+  background-image: linear-gradient(to right,#D170BE, #856FE1);
+  color: white;
+  font-weight: 900;
+  border-radius: 999px;
+  border: none;
+}
+
+.LoginButton:hover
+{
+   background-image: linear-gradient(to right, #856FE1, #D170BE);
+}
+
+.showPassword, .forgetPassword
+{
+  font-size: 12px;
+}
+
+.icon
+{
+   position: relative;
+   top: 22px;
+   right: 100px;
+}
+
+input
+{
+  background-color: #E9E7FC;
+  border: none;
+}
+
+.freePic
+{
+  color: white;
+  margin-top: 50px;
+  margin-left: 450px;
+}

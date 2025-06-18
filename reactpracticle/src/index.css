@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+  height: 15vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(161, 47, 47), rgb(191, 116, 116)) ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aside
+{
+  height: 65vh;
+  width: 25%;
+  background-color: rgb(193, 106, 106);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.mainContent
+{
+
+  height: 65vh;
+  width: 75%;
+  background-color: rgb(191, 116, 116);
+  font-size: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container
+{
+  display:  flex;
+}
+
+footer
+{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-image: linear-gradient( rgb(191, 116, 116), rgb(161, 47, 47));
+  color: white;
+
+}
