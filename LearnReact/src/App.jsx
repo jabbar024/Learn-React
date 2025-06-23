@@ -4,6 +4,8 @@ import { createElement } from "react";
 import JSXInro from "./Components/JSXIntro/JsxInro";
 import HooksIntro from "./Components/Hooks/HooksIntro";
 import UseOfTailwindCss from "./Components/Tailwind Css/useOfTailwindCss";
+import PropsIntro from "./Components/Props/PropsIntro";
+import EventHandlingInro from "./Components/EventHandling/EventHandlingInro";
 
 // Class Based Component
 // class App extends Component
@@ -43,6 +45,15 @@ let App = ()=>
                 <UseOfTailwindCss />
                </div>
 
+                {/* __________Props__________ */}
+                <div>
+                    <PropsIntro />
+                </div>
+
+                {/* __________Event Handling__________ */}
+                <div>
+                    <EventHandlingInro/>
+                </div>
                 
            </div>
         </div>
